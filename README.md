@@ -27,6 +27,6 @@ you have two options while the server running
 2. press two to print all locations and each loacation with no of neighbours ageee on this location
 3. press '0' to exit and turn off the server
 ###
-###client side 
+### client side 
 written in java 
 you just run the client side on local host it will ask you for the location to send it to the server and the program will shutdown
