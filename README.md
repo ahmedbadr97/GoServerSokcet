@@ -17,3 +17,16 @@ Gehad is a lovely, lovely girl with a lovely, lovely smile and she is your frien
 
 
 Write a Golang server that receives the locations where Gehad was last sighted by the neighbors, and find the most place that most neighbors agrees on, to start the search there, known that every neighbor will send a location as a single string.
+
+-----------------------------
+### server Side
+the server will start waiting for clients to connect  
+it is written in go  
+you have two options while the server running
+1. press one to print the most place that neighbors agree on now "as it changes while clients vote for a location"
+2. press two to print all locations and each loacation with no of neighbours ageee on this location
+3. press '0' to exit and turn off the server
+###
+###client side 
+written in java 
+you just run the client side on local host it will ask you for the location to send it to the server and the program will shutdown
